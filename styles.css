@@ -1,0 +1,52 @@
+html, body {
+    min-height: 100%;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.calculator {
+    height: 365px;
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+}
+
+.row {
+    clear: left;
+}
+
+.view {
+    font-size: 60px;
+    height: 65px;
+    background-color: grey;
+}
+
+button {
+    float: left;
+    background-color: deepskyblue;
+    color: black;
+    padding: 10px;
+    height: 60px;
+    width: 70px;
+    font-size: x-large;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.top {
+    background-color: teal;
+}
+
+.twobuttons {
+    width: 140px;
+}
